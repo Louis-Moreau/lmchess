@@ -1,0 +1,8 @@
+pub trait ChessBoard {
+    fn unverifiedMove(&mut self) -> ();
+    fn verifiedMove(&mut self) -> ();
+    fn unverifiedMoveCopy(&mut self) -> Self;
+    fn verifiedMoveCopy(&mut self) -> Result<Self>;
+    fn verifyMove(&self) -> bool;
+
+}
