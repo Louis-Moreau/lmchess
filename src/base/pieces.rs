@@ -1,0 +1,20 @@
+#[repr(u8)]
+pub enum Piece {
+    Empty,
+    WhitePawn,
+    WhiteKnight,
+    WhiteBishop,
+    WhiteUnmovedRook,
+    WhiteMovedRook,
+    WhiteUnmovedKing,
+    WhiteMovedKing,
+    WhiteQueen,
+    BlackPawn,
+    BlackKnight,
+    BlackBishop,
+    BlackUnmovedRook,
+    BlackMovedRook,
+    BlackUnmovedKing,
+    BlackMovedKing,
+    BlackQueen,
+}
